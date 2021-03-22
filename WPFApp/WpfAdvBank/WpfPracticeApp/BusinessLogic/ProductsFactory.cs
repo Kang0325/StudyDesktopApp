@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfPracticeApp
+namespace WpfPracticeApp.BusinessLogic
 {
     public class ProductsFactory
     {
@@ -66,7 +66,7 @@ namespace WpfPracticeApp
             set
             {
                 title = value;
-                OnPropertyChanged("Title");
+                //OnPropertyChanged("Title");
             }
         }
 
@@ -78,7 +78,7 @@ namespace WpfPracticeApp
             set
             {
                 price = value;
-                OnPropertyChanged("Price");
+                //OnPropertyChanged("Price");
             }
         }
 
@@ -90,7 +90,7 @@ namespace WpfPracticeApp
             set
             {
                 color = value;
-                OnPropertyChanged("Color");
+                //OnPropertyChanged("Color");
             }
         }
 
@@ -102,7 +102,7 @@ namespace WpfPracticeApp
             set
             {
                 reference = value;
-                OnPropertyChanged("Reference");
+                //OnPropertyChanged("Reference");
             }
         }
 

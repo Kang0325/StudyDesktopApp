@@ -7,8 +7,14 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Contact" Initialized="Page_Initialized">
+    <Page.Resources>
+        <ResourceDictionary>
+            <Button x:Key="button">Hello!</Button>
+            <SolidColorBrush x:Key="accentBrush" Color="Red"/>
+        </ResourceDictionary>
+    </Page.Resources>
 
-    <Grid>
+    <Grid Margin="10" Background="{StaticResource background}">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="6*"/>
@@ -26,8 +32,12 @@
         <TextBox x:Name="TxtMessage" Grid.Row="1" Grid.Column="1" Margin="10"/>
 
         <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button x:Name="BtnSend" Content="Send" Margin="5" Width="100" FontSize="14"/>
-            <Button x:Name="BtnCancel" Content="Cancel" Margin="5" Width="100" FontSize="14"/>
+            <Button x:Name="BtnSend" Content="Send" Margin="5" Width="100" FontSize="14"
+                    Style="{StaticResource MahApps.Styles.Button.Circle}"
+                    Background="{StaticResource MahApps.Brushes.Accent4}"/>
+            <Button x:Name="BtnCancel" Content="Cancel" Margin="5" Width="100" FontSize="14"
+                    Style="{StaticResource MahApps.Styles.Button.Circle}"
+                    Background="{StaticResource MahApps.Brushes.Accent4}"/>
         </StackPanel>
     </Grid>
 </Page>
