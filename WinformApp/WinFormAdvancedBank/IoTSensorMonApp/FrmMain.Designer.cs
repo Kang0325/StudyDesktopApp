@@ -37,23 +37,23 @@ namespace IoTSensorMonApp
             this.파일FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuLoadFile = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuSaveFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.MnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.MnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.시뮬레이션SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuBeginSimulation = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuEndSimulation = new System.Windows.Forms.ToolStripMenuItem();
             this.LblConnetTime = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.TxtSensorNum = new System.Windows.Forms.TextBox();
-            this.PrbPhotoResistor = new System.Windows.Forms.ProgressBar();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.PrbPhotoResistor = new System.Windows.Forms.ProgressBar();
+            this.TxtSensorNum = new System.Windows.Forms.TextBox();
             this.LsbPhotoResistors = new System.Windows.Forms.ListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.CboSerialPort = new System.Windows.Forms.ComboBox();
-            this.BtnConnect = new System.Windows.Forms.Button();
-            this.BtnDisConnect = new System.Windows.Forms.Button();
             this.BtnDisplay = new System.Windows.Forms.Button();
+            this.BtnDisConnect = new System.Windows.Forms.Button();
+            this.BtnConnect = new System.Windows.Forms.Button();
+            this.CboSerialPort = new System.Windows.Forms.ComboBox();
             this.ChtPhotoResistors = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.BtnViewAll = new System.Windows.Forms.Button();
             this.BtnZoom = new System.Windows.Forms.Button();
@@ -88,26 +88,26 @@ namespace IoTSensorMonApp
             // MnuLoadFile
             // 
             this.MnuLoadFile.Name = "MnuLoadFile";
-            this.MnuLoadFile.Size = new System.Drawing.Size(180, 22);
+            this.MnuLoadFile.Size = new System.Drawing.Size(139, 22);
             this.MnuLoadFile.Text = "읽어오기(&O)";
             // 
             // MnuSaveFile
             // 
             this.MnuSaveFile.Name = "MnuSaveFile";
-            this.MnuSaveFile.Size = new System.Drawing.Size(180, 22);
+            this.MnuSaveFile.Size = new System.Drawing.Size(139, 22);
             this.MnuSaveFile.Text = "저장하기(&S)";
-            // 
-            // MnuExit
-            // 
-            this.MnuExit.Name = "MnuExit";
-            this.MnuExit.Size = new System.Drawing.Size(180, 22);
-            this.MnuExit.Text = "종료(&X)";
-            this.MnuExit.Click += new System.EventHandler(this.MnuExit_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(136, 6);
+            // 
+            // MnuExit
+            // 
+            this.MnuExit.Name = "MnuExit";
+            this.MnuExit.Size = new System.Drawing.Size(139, 22);
+            this.MnuExit.Text = "종료(&X)";
+            this.MnuExit.Click += new System.EventHandler(this.MnuExit_Click);
             // 
             // 시뮬레이션SToolStripMenuItem
             // 
@@ -155,20 +155,14 @@ namespace IoTSensorMonApp
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "PhotoResistor";
             // 
-            // TxtSensorNum
+            // label3
             // 
-            this.TxtSensorNum.Location = new System.Drawing.Point(280, 44);
-            this.TxtSensorNum.Name = "TxtSensorNum";
-            this.TxtSensorNum.Size = new System.Drawing.Size(74, 21);
-            this.TxtSensorNum.TabIndex = 0;
-            // 
-            // PrbPhotoResistor
-            // 
-            this.PrbPhotoResistor.Location = new System.Drawing.Point(6, 24);
-            this.PrbPhotoResistor.Maximum = 1023;
-            this.PrbPhotoResistor.Name = "PrbPhotoResistor";
-            this.PrbPhotoResistor.Size = new System.Drawing.Size(336, 23);
-            this.PrbPhotoResistor.TabIndex = 0;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(309, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 15);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "1023";
             // 
             // label2
             // 
@@ -179,14 +173,21 @@ namespace IoTSensorMonApp
             this.label2.TabIndex = 3;
             this.label2.Text = "0";
             // 
-            // label3
+            // PrbPhotoResistor
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(309, 50);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 15);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "1023";
+            this.PrbPhotoResistor.Location = new System.Drawing.Point(6, 24);
+            this.PrbPhotoResistor.Maximum = 1023;
+            this.PrbPhotoResistor.Name = "PrbPhotoResistor";
+            this.PrbPhotoResistor.Size = new System.Drawing.Size(336, 23);
+            this.PrbPhotoResistor.TabIndex = 0;
+            // 
+            // TxtSensorNum
+            // 
+            this.TxtSensorNum.Location = new System.Drawing.Point(280, 44);
+            this.TxtSensorNum.Name = "TxtSensorNum";
+            this.TxtSensorNum.Size = new System.Drawing.Size(74, 21);
+            this.TxtSensorNum.TabIndex = 0;
+            this.TxtSensorNum.TextChanged += new System.EventHandler(this.TxtSensorNum_TextChanged);
             // 
             // LsbPhotoResistors
             // 
@@ -213,23 +214,15 @@ namespace IoTSensorMonApp
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Port";
             // 
-            // CboSerialPort
+            // BtnDisplay
             // 
-            this.CboSerialPort.FormattingEnabled = true;
-            this.CboSerialPort.Location = new System.Drawing.Point(6, 25);
-            this.CboSerialPort.Name = "CboSerialPort";
-            this.CboSerialPort.Size = new System.Drawing.Size(95, 23);
-            this.CboSerialPort.TabIndex = 5;
-            // 
-            // BtnConnect
-            // 
-            this.BtnConnect.Location = new System.Drawing.Point(6, 56);
-            this.BtnConnect.Name = "BtnConnect";
-            this.BtnConnect.Size = new System.Drawing.Size(95, 30);
-            this.BtnConnect.TabIndex = 6;
-            this.BtnConnect.Text = "Connect";
-            this.BtnConnect.UseVisualStyleBackColor = true;
-            this.BtnConnect.Click += new System.EventHandler(this.BtnConnect_Click);
+            this.BtnDisplay.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.BtnDisplay.Location = new System.Drawing.Point(6, 128);
+            this.BtnDisplay.Name = "BtnDisplay";
+            this.BtnDisplay.Size = new System.Drawing.Size(95, 66);
+            this.BtnDisplay.TabIndex = 8;
+            this.BtnDisplay.Text = "COM3";
+            this.BtnDisplay.UseVisualStyleBackColor = true;
             // 
             // BtnDisConnect
             // 
@@ -241,15 +234,23 @@ namespace IoTSensorMonApp
             this.BtnDisConnect.UseVisualStyleBackColor = true;
             this.BtnDisConnect.Click += new System.EventHandler(this.BtnDisConnect_Click);
             // 
-            // BtnDisplay
+            // BtnConnect
             // 
-            this.BtnDisplay.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.BtnDisplay.Location = new System.Drawing.Point(6, 128);
-            this.BtnDisplay.Name = "BtnDisplay";
-            this.BtnDisplay.Size = new System.Drawing.Size(95, 66);
-            this.BtnDisplay.TabIndex = 8;
-            this.BtnDisplay.Text = "COM3";
-            this.BtnDisplay.UseVisualStyleBackColor = true;
+            this.BtnConnect.Location = new System.Drawing.Point(6, 56);
+            this.BtnConnect.Name = "BtnConnect";
+            this.BtnConnect.Size = new System.Drawing.Size(95, 30);
+            this.BtnConnect.TabIndex = 6;
+            this.BtnConnect.Text = "Connect";
+            this.BtnConnect.UseVisualStyleBackColor = true;
+            this.BtnConnect.Click += new System.EventHandler(this.BtnConnect_Click);
+            // 
+            // CboSerialPort
+            // 
+            this.CboSerialPort.FormattingEnabled = true;
+            this.CboSerialPort.Location = new System.Drawing.Point(6, 25);
+            this.CboSerialPort.Name = "CboSerialPort";
+            this.CboSerialPort.Size = new System.Drawing.Size(95, 23);
+            this.CboSerialPort.TabIndex = 5;
             // 
             // ChtPhotoResistors
             // 
