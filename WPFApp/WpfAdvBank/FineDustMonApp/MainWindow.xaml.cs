@@ -67,7 +67,7 @@ namespace FineDustMonApp
                     lstLabs.Add(sh.GetRow(r).Cells[1].ToString());
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
 
