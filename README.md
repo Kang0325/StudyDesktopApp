@@ -13,44 +13,76 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 ![결과](WinformApp/ref.ExerciseWinApp/AlarmClock.png)
 
-DateCalcApp
+- DateCalcApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/DateCalc.png)
 
-DigitalClockApp
+- DigitalClockApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/DigitalClock.png)
 
-ListboxApp
+- ListboxApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/Listbox.png)
 
-ListViewApp
+- ListViewApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/ListView.png)
 
-MoviePlayerApp
+- MoviePlayerApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/MoviePlayer.png)
 
-RestaurentSelApp
+- RestaurentSelApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/RestaurentSel.png)
 
-SimpleGraphicEditorApp
+- SimpleGraphicEditorApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/SimpleGraphicEditor.png)
 
-StudyHistoryApp
+- StudyHistoryApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/StudyHistory.png)
 
-TextViewerApp
+- TextViewerApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/TextViewer.png)
 
-TravelWishApp
+- TravelWishApp
 
 ![결과](WinformApp/ref.ExerciseWinApp/TravelWish.png)
 
 ### PracticeWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/PracticeWinApp)
+
+- CheckBoxWinApp
+
+![결과](WinformApp/ref.PracticeWinApp/CheckBoxWinApp.png)
+
+- ColorChangerApp
+
+![결과](WinformApp/ref.PracticeWinApp/ColorChangerApp.png)
+
+- FlgWinApp
+
+![결과](WinformApp/ref.PracticeWinApp/FlgWinApp.png)
+
+- LabelTestApp
+
+![결과](WinformApp/ref.PracticeWinApp/LabelTestApp.png)
+
+- LoginApp
+
+![결과](WinformApp/ref.PracticeWinApp/LoginApp.png)
+
+- MaskedTextApp
+
+![결과](WinformApp/ref.PracticeWinApp/MaskedTextApp.png)
+
+- PracticeWinApp
+
+![결과](WinformApp/ref.PracticeWinApp/PracticeWinApp.png)
+
+- RadioButtonWinApp
+
+![결과](WinformApp/ref.PracticeWinApp/RadioButtonWinApp.png)
