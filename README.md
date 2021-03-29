@@ -93,32 +93,32 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 - AnalogClockApp
 
-![결과](WPFApp/ref.PracticeWinApp/AnalogClock.png)
+![결과](WPFApp/ref.WpfExecutiveBank/AnalogClock.png)
 
 - BlinkerApp
 
-![결과](WPFApp/ref.PracticeWinApp/BlinkerApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/BlinkerApp.png)
 
 - BmiCalcApp
 
-![결과](WPFApp/ref.PracticeWinApp/BmiCalc.png)
+![결과](WPFApp/ref.WpfExecutiveBank/BmiCalc.png)
 
 - CalculatorApp
 
-![결과](WPFApp/ref.PracticeWinApp/Calculator.png)
+![결과](WPFApp/ref.WpfExecutiveBank/Calculator.png)
 
 - HelloWpfApp
 
-![결과](WPFApp/ref.PracticeWinApp/HelloWpfApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/HelloWpfApp.png)
 
 - MonteCarloPi
 
-![결과](WPFApp/ref.PracticeWinApp/MonteCarloPi.png)
+![결과](WPFApp/ref.WpfExecutiveBank/MonteCarloPi.png)
 
 - SnakeBiteGameApp
 
-![결과](WPFApp/ref.PracticeWinApp/SnakeBiteGameApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/SnakeBiteGameApp.png)
 
 - WpfCalculatorApp
 
-![결과](WPFApp/ref.PracticeWinApp/WpfCalculatorApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/WpfCalculatorApp.png)
