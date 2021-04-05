@@ -5,9 +5,9 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 ## WinForm
 
-### ConfirmWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/ConfirmWinApp)
+### 1. ConfirmWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/ConfirmWinApp)
 
-### ExerciseWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/ExerciseWinApp)
+### 2. ExerciseWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/ExerciseWinApp)
 
 - AlarmClockApp
 
@@ -53,7 +53,7 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 ![결과](WinformApp/ref.ExerciseWinApp/TravelWish.png)
 
-### PracticeWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/PracticeWinApp)
+### 3. PracticeWinApp [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/PracticeWinApp)
 
 - CheckBoxWinApp
 
@@ -86,3 +86,41 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 - RadioButtonWinApp
 
 ![결과](WinformApp/ref.PracticeWinApp/RadioButtonWinApp.png)
+
+-----------------------------------------------------------------
+
+## WPF
+
+### 1. WpfExecutiveBank [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WPFApp/WpfExecutiveBank)
+
+- AnalogClockApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/AnalogClock.png)
+
+- BlinkerApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/BlinkerApp.png)
+
+- BmiCalcApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/BmiCalc.png)
+
+- CalculatorApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/Calculator.png)
+
+- HelloWpfApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/HelloWpfApp.png)
+
+- MonteCarloPi
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/MonteCarloPi.png)
+
+- SnakeBiteGameApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/SnakeBiteGameApp.png)
+
+- WpfCalculatorApp
+
+![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/WpfCalculatorApp.png)
