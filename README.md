@@ -141,11 +141,11 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 - HelloWpfApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/HelloWpfApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/HelloWpfApp.png)
 
 - MonteCarloPi
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/MonteCarloPi.png)
+![결과](WPFApp/ref.WpfExecutiveBank/MonteCarloPi.png)
 
 - SnakeBiteGameApp
 
@@ -156,4 +156,20 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 ![결과](WPFApp/ref.WpfExecutiveBank/WpfCalculatorApp.png)
 
 ### 2. WpfAdvBank [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank)
+
+- FineDustMonApp
+
+![결과](WPFApp/ref.WpfAdvBank/FineDustMonApp.png)
+
+- ModernUITestApp
+
+![결과](WPFApp/ref.WpfAdvBank/ModernUITestApp.png)
+
+- PhotoSensorMonApp
+
+![결과](WPFApp/ref.WpfAdvBank/PhotoSensorMonApp.png)
+
+- WpfLoginApp
+
+![결과](WPFApp/ref.WpfAdvBank/WpfLoginApp.png)
 
