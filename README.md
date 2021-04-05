@@ -125,19 +125,19 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 - AnalogClockApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/AnalogClock.png)
+![결과](WPFApp/ref.WpfExecutiveBank/AnalogClock.png)
 
 - BlinkerApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/BlinkerApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/BlinkerApp.png)
 
 - BmiCalcApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/BmiCalc.png)
+![결과](WPFApp/ref.WpfExecutiveBank/BmiCalc.png)
 
 - CalculatorApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/Calculator.png)
+![결과](WPFApp/ref.WpfExecutiveBank/Calculator.png)
 
 - HelloWpfApp
 
@@ -149,11 +149,11 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 - SnakeBiteGameApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/SnakeBiteGameApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/SnakeBiteGameApp.png)
 
 - WpfCalculatorApp
 
-![결과](WPFApp/WpfExecutiveBank/ref.WpfExecutiveBank/WpfCalculatorApp.png)
+![결과](WPFApp/ref.WpfExecutiveBank/WpfCalculatorApp.png)
 
 ### 2. WpfAdvBank [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank)
 
