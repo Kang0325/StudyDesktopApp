@@ -117,6 +117,16 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 ![결과](WinformApp/ref.WinFormAdvancedBank/WinChartApp.png)
 
+### 5. WinExecutiveBank [Source](https://github.com/Kang0325/StudyDesktopApp/tree/main/WinformApp/WinExecutiveBank)
+
+- MyNotePadApp
+
+![결과](WinformApp/ref.WinFormAdvancedBank/MyNotePadApp.png)
+
+- WinCalculatorApp
+
+![결과](WinformApp/ref.WinFormAdvancedBank/WinCalculatorApp.png)
+
 -----------------------------------------------------------------
 
 ## WPF
