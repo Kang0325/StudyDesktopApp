@@ -121,11 +121,11 @@ PKNU C# 데스크톱 앱 개발 학습 리포지토리
 
 - MyNotePadApp
 
-![결과](WinformApp/ref.WinFormAdvancedBank/MyNotePadApp.png)
+![결과](WinformApp/ref.WinExecutiveBank/MyNotePadApp.png)
 
 - WinCalculatorApp
 
-![결과](WinformApp/ref.WinFormAdvancedBank/WinCalculatorApp.png)
+![결과](WinformApp/ref.WinExecutiveBank/WinCalculatorApp.png)
 
 -----------------------------------------------------------------
 
